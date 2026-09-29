@@ -501,8 +501,7 @@ local function setSpeed(character)
     end
 end 
 
-SpeedBtn.MouseButton1Click:Connect(function()
-SpeedBtn.MouseButton1Click:Connect(function()
+SpeedBtn.MouseButton1Click:Connect( function()
     SpeedEnabled = not SpeedEnabled
     if SpeedEnabled then
         SpeedBtn.Text = "Tốc độ 350: BẬT"
