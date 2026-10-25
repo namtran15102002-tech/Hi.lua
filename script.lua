@@ -21,7 +21,7 @@ local FOV_RADIUS = 350
 local MAX_DISTANCE = 300
 local TARGET_PART = "Head"
 local LockedTarget = nil
-local TP_SPEED = 1500
+local TP_SPEED = 850
 
 local SpeedEnabled = false
 local SpeedConnection = nil
